@@ -1,0 +1,23 @@
+{
+  "name": "app_to_push",
+  "version": "1.0.0",
+  "description": "creating a web application for list to do ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "List-To-Do"
+  },
+  "author": "Abdelmounaimhmamed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.18"
+  }
+}

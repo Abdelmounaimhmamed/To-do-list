@@ -1,0 +1,21 @@
+<%- include ("header") -%>
+
+    <div class="body"> </div>
+    <div class="container">
+        <div class="classia">
+            <h1 class="header"><%= date %></h1>
+            <ul>
+           
+            <%arrobj.forEach((e) => {%>
+                <div class="item">
+                    <input type="checkbox"  class="check"/>
+                    <li class="tmp"><%=e.itemtoadd%> </li>
+                </div>
+            <%});%>
+            </ul>
+        <form class ="form" action="/" method="post">
+            <input type="text" name="itemtoadd" placeholder="New item" required = "required"/>
+            <button type="submit">Add</button>
+        </form>
+
+<%- include ("footer") -%>

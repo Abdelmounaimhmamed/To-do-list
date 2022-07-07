@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,9,224);
+    position: fixed;
+    top: 0%;
+    z-index: -1;
+    background: linear-gradient(153deg, rgba(238,9,224,1) 0%, rgba(27,4,89,1) 42%, rgba(78,0,255,1) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px ; */
+    margin-top: 100px; 
+    text-align: center;
+}
+.classia{
+    width: 450px;
+    /* background: rgb(238,9,224); */
+    /* background: linear-gradient(153deg, rgba(238,9,224,1) 0%, rgba(27,4,89,1) 42%, rgba(78,0,255,1) 100%); */
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header{
+    color: rgb(243, 243, 243);
+    margin-bottom: 20px;
+    background-color: purple;
+    width: 430px;
+    height: 60px;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 420px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(247, 247, 247);
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+}
+.form button{
+    border: none;
+    background-color: purple;
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+}
+ul li{
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width:400px ;
+    height: 40px;
+    margin: 10px;
+    line-height: 40px;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    overflow:hidden;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buble{
+    width : 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.rm{
+    text-decoration: line-through;
+    text-decoration-color: blue;
+}
+
+.check:checked+li{
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.copy{
+    margin-top: 50px;
+    color: white;
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 10px;
+  
+}
